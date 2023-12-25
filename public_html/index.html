@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Nasonov Maksim</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="wrapper wrapper-1">
+			<div><h1><a href="/">Max Nasonov</a></h1></div>
+			<div><h2><a href="#about">Обо мне</a></h2></div>
+			<div><h2><a href="#pics">Фото</a></h2></div>
+			<div><h2><a href="#social">Соц. сети</a></h2></div>
+			<div><h2><a href="/report.html">Отчёт</a></h2></div>
+		</div>
+		<div class="wrapper" id="about">
+			<div><h2>Обо мне</h2>
+			<h3>Личная информация</h3>
+			<p>ФИО: Насонов Максим Максимович<br>Дата рождения: 13.03.2003<br>Город: Новосибирск<br>Языки: Русский, English</p>
+			<h3>Образование</h3>
+			<p>Вуз: НГТУ (НЭТИ) '25<br>Факультет: Факультет прикладной математики и информатики<br>Специальность: Математическое обеспечение и администрирование информационных систем<br>Форма обучения: Очное отделение<br>Статус: Студент (бакалавр)<br>Школа: Новосибирская классическая гимназия № 17 '21</p>
+			<h3>Жизненная позиция</h3>
+			<p>Мировоззрение: Вампиризм<br>Главное в людях: Доброта и честность</p>
+			</div>
+		</div>
+		<div class="wrapper" id="pics">
+			<h2>Фото</h2>
+			<div class="wrapper wrapper-pics">
+				<div><img height="300px" src="img/me.jpg" alt="me"></div>
+				<div><img height="300px" src="img/me_and_not_me.png" alt="me_and_not_me"></div>
+				<div><img height="300px" src="img/cat.jpg" alt="cat"></div>
+				<div><img height="300px" src="img/me1.jpg" alt="me1"></div>
+			</div>
+		</div>
+		<div class="wrapper" id="social">
+			<h2>Соц. сети</h2>
+			<div class="wrapper wrapper-pics">
+				<div><a href="https://vk.com/maxidogg"><img height="300px" src="img/vk.png" alt="VK_logo"></a></div>
+				<div><a href="https://github.com/MaXIDoGG"><img height="300px" src="img/github.png" alt="GitHub_logo"></a></div>
+				<div><a href="https://steamcommunity.com/profiles/76561198153937184/"><img height="300px" src="img/steam.png" alt="Steam_logo"></a></div>
+				<div><a href="https://t.me/maxidogg"><img height="300px" src="img/tg.svg" alt="tg_logo"></a></div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<h2>Комментарии</h2>
+			<form id="commentForm">
+				<h3>Имя:</h3>
+				<input type="text" id="name" required style="color: black">
+				<br>
+				<h3>Текст комментария:</h3>
+				<textarea id="comment" style="color: black" required></textarea>
+				<br>
+				<input type="hidden" id="commentId" value="">
+				<button style="color: black" type="submit">Добавить/Редактировать комментарий</button>
+			</form>
+			
+			<!-- Секция для отображения комментариев -->
+			<div id="commentsSection">
+				<!-- Комментарии будут отображаться здесь -->
+			</div>
+			
+			<!-- Секция для отображения комментариев -->
+			
+		</div>
+
+		<script src="script.js"></script>
+	</div>
+</body>
+</html>
